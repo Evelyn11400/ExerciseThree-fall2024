@@ -1,0 +1,77 @@
+.page {
+}
+
+.main {
+}
+
+.header nav {
+  border-bottom: 1px solid black;
+  margin: 0;
+  padding: 20px;
+}
+
+.header nav ul {
+  display: flex;
+}
+
+.header nav ul li {
+  font-weight: 800;
+  list-style-type: none;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.header a {
+  font-size: 200;
+}
+
+.main {
+  padding: 20px;
+}
+
+.weatherCardWrapper {
+  border: 2px solid grey;
+  display: flex;
+  margin: 24px auto;
+  max-width: 840px;
+  min-height: 500px;
+  padding: 24px;
+}
+
+.weatherCardLeftColomn {
+  margin: 30px;
+  max-width: 380px;
+}
+
+.weatherCardLeftColomn svg {
+  max-width: 300px;
+}
+
+.weatherCardLeftColomn p {
+  font-size: 80px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.weatherCardRightColomn {
+  margin: 30px;
+  max-width: 380px;
+  padding-left: 20px;
+}
+
+.weatherCardRightColomn h2 {
+  font-size: 80px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.weatherCardRightColomn h3 {
+  font-size: 60px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.weatherCardRightColomn p {
+  font-size: 25px;
+  font-weight: 300;
+}
